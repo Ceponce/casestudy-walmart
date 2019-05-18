@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(253, 206, 203);
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    position: relative;
+}
+
+.nav {
+    background-color: rgb(5,30, 65);
+    height: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-left: 40px; */
+    box-shadow: 0 8px 60px -6px white;
+    text-align: center;
+
+}
+
+.logo {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(253, 193, 56);
+    float: left;
+    margin-top: 4px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.back {
+    background: url("./wal.png");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: right top;
+    opacity: 0.5;
+    z-index: -1;
+    padding-top: 20px;
+    
+}
+
+.back2 {
+    background:
+    linear-gradient(
+        to right,
+        rgba(253, 206, 203, 0),
+        rgba(253, 206, 203, 0)),
+        url("./wal.png");
+    background-repeat: no-repeat;
+    min-height: 400px;
+        
+}
+
+.banner {
+    font-size: 60px;
+    z-index: 0;
+    color: rgba(0, 0, 0, 1);
+    /* display:inline; */
+    padding-top: 20px;
+    padding-left: 40px;
+    color: rgb(107, 97, 74);
+}
+
+
+
+.content {
+    /* margin-top: 200px; */
+    margin-left: 60px;
+}
+
+.row {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    width: 30%;
+    height: 40px;
+    background: #f8f8f80a;
+    border-radius: 1px;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.699);
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.row:hover {
+    background: #f8f8f8;
+}
+@keyframes example {
+    from {color: rgb(107, 97, 74);}
+    to {color:rgb(107, 97, 74);}
+  }
+
+.card {
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    border-radius: 1px;
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+    min-width: 220px;
+}
+
+.card-end {
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    border-radius: 1px;
+    float: left;
+    padding: 20px;
+    min-width: 220px;
+}
+
+.header-text {
+    font-size: 20px;
+}
